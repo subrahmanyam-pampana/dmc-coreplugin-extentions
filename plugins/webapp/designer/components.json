@@ -1,0 +1,19 @@
+{
+    "components": [],
+    "extensions": [
+        {
+            "provider": "sap/coreplugin/extensions/worklistExtensionProvider/ExtensionProvider",
+            "controller": "sap.dm.dme.plugins.worklistPlugin",
+            "inclusions": [
+                {
+                    "pods": [
+                        "CUSTOM_WC_POD"
+                    ],
+                    "plants": [
+                        "SP_01"
+                    ]
+                }
+            ]
+        }
+    ]
+}

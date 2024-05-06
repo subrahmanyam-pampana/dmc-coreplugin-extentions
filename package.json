@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "login": "cf login -u subrahmanyam.pampana@sap.com -a https://api.cf.us10-001.hana.ondemand.com/",
         "bd":"mbt build -p=cf -s=./ -t=./mta_archives && cf deploy ./mta_archives/coreplugin-extensions_0.0.1.mtar -f"
     }
 }
